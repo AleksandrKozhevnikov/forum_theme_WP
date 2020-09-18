@@ -1,0 +1,597 @@
+@media ( min-width: 760px) and (max-width: 1080px) {
+    .header {
+        &__logo {
+            img {
+                height: 110px;
+                margin-left: 41px;
+            }
+            
+        }
+        &__phones {
+            padding-right: 60px;
+            a {
+                font-size: 19px;
+            }
+            
+        }
+    }
+    .menu {
+        &__wrapper {
+            width: 87%;
+            margin: 0 auto;
+            li {
+                font-size: 18px;
+                a {
+                    line-height: 12px;
+                }
+            }
+          
+        }
+    }
+    .promo {
+        min-height: 345px;
+        &__title {
+            font-size: 30px;
+            padding-top: 92px;
+            line-height: 30px;
+        }
+        &__titles {
+            height: 345px;
+            width: 392px;
+            margin-left: 56px;
+            background-size: 85%;
+        }
+        &__link {
+            font-size: 13px;
+        }
+        &__links {
+            width: 75%;
+        }
+        &__image {
+            img {
+                width: 80%;
+            }
+        }
+    }
+    .pickup {
+        min-height: 362px;
+        &__map {
+            display: none;
+        }
+        &__buildings {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 100%;
+            
+            &__card {
+                width: 42%;
+                margin-right: 15px;
+            }
+        }
+    }
+    .partners {
+        &__wrapper {
+            justify-content: center;
+            margin-left: 25px;
+        }
+        &__frame {
+            margin-right: 25px;
+            width: 22%;
+        }
+    }
+    .footer {
+        &__wrapper {
+            justify-content: space-evenly;
+        }
+    }
+    .rent {
+        &__choice {
+            width: 322px;
+            &__wrapper {
+                justify-content: center;
+            }
+            &__large {
+                width: 85%;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        &__map {
+            width: 438px;
+        }
+        &__wrapper {
+            justify-content: center;
+        }
+        &__kvarc__wrapper {
+            width: 322px;
+        }
+        &__forum__wrapper {
+            width: 322px;
+        }
+        &__atoll__wrapper {
+            width: 322px;
+        }
+        &__another-room {
+            margin-left: 10px;
+        }
+        &__terms {
+            margin-left: 60px;
+        }
+    }
+        
+    .kvarc {
+        min-height: 2325px;
+        &__page__slider {
+            width: 450px;
+            img {
+                height: 250px;
+            }
+        }
+        &__slider {
+            width: 437px;
+        }
+        &__header {
+            width: 322px;
+        }
+        &__promo__wrapper {
+            justify-content: center;
+        }
+        &__stock {
+            background: url(/img/actions-back.png) center no-repeat;
+            background-size: 85%;
+            &__title__text {
+                font-size: 50px;
+            }
+            &__descr__text {
+                padding-top: 36px;
+            }
+            &__content {
+                width: 80%;
+            }
+        }
+        &__more {
+            margin-left: 63px;
+        }
+        &__about__block {
+            display: block;
+            margin: 0 auto;
+            width: 86%;
+        }
+        &__travel__block {
+            display: block;
+            margin: 0 auto;
+            width: 86%;
+        }
+    }
+    .forum {
+        &__page__slider {
+            width: 450px;
+            img {
+                height: 250px;
+            }
+        }
+        &__slider {
+            width: 437px;
+        }
+        &__header {
+            width: 322px;
+        }
+        &__promo__wrapper {
+            justify-content: center;
+        }
+        &__stock {
+            background: url(/img/actions-back.png) center no-repeat;
+            background-size: 85%;
+            &__title__text {
+                font-size: 50px;
+            }
+            &__descr__text {
+                padding-top: 36px;
+            }
+            &__content {
+                width: 80%;
+            }
+        }
+        &__more {
+            margin-left: 63px;
+        }
+        &__about__block {
+            display: block;
+            margin: 0 auto;
+            width: 86%;
+        }
+        &__travel__block {
+            display: block;
+            margin: 0 auto;
+            width: 86%;
+        }
+    }
+    .atoll {
+        min-height: 2384px;
+        &__page__slider {
+            width: 450px;
+            img {
+                height: 250px;
+            }
+        }
+        &__slider {
+            width: 437px;
+        }
+        &__header {
+            width: 322px;
+        }
+        &__promo__wrapper {
+            justify-content: center;
+        }
+        &__stock {
+            background: url(/img/actions-back.png) center no-repeat;
+            background-size: 85%;
+            &__title__text {
+                font-size: 50px;
+            }
+            &__descr__text {
+                padding-top: 36px;
+            }
+            &__content {
+                width: 80%;
+            }
+        }
+        &__more {
+            margin-left: 63px;
+        }
+        &__about__block {
+            display: block;
+            margin: 0 auto;
+            width: 86%;
+        }
+        &__travel__block {
+            display: block;
+            margin: 0 auto;
+            width: 86%;
+        }
+    }
+    .table {
+        width: 322px;
+        &__large {
+            width: 86%;
+            &__content {
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+    .slick-prev {
+        transform: translate(10px,136px);
+        &_promo {
+            transform: translate(10px,98px);
+            img {
+                height: 50px;
+            }
+        }
+        &_room {
+            transform: translate(-275px,136px);
+        }
+    }
+    .slick-next {
+        transform: translate(385px,-213px);
+        &_promo {
+            transform: translate(395px,-154px);
+            img {
+                height: 50px;
+            }
+        }
+        &_room {
+            transform: translate(234px,-213px);
+        }
+    }
+    .buy {
+        &__content {
+            justify-content: center;
+        }
+        &__left__block {
+            display: none;
+        }
+    }
+
+    .sale {
+        &__content {
+            margin-left: 60px;
+        }
+    }
+    .left {
+        &__first_card {
+            width: 360px;
+            height: 185px;
+            &__header {
+                font-size: 27px;
+                line-height: 25px;
+                margin-top: 0;
+                margin-left: 8px;
+            }
+            &__contacts {
+                line-height: 19px;
+                font: status-bar;
+                font-weight: 600;
+                font-size: 14px;
+                text-align: right;
+                padding-right: 10px;
+            }
+        }
+        &__second_card {
+            width: 370px;
+            height: 185px;
+            &__text {
+                font-size: 24px;
+            }
+        }
+        &__third_card {
+            width: 360px;
+            height: 185px;
+            &__header {
+                font-size: 20px;
+            }
+            &__adress {
+                font-size: 16px;
+            }
+            &__descr {
+                padding-top: 50px;
+                font-size: 14px;
+            }
+        }
+        &__fourth_card {
+            width: 360px;
+            height: 185px;
+            &__header {
+                font-size: 20px;
+            }
+            &__adress {
+                font-size: 16px;
+            }
+            &__descr {
+                bottom: 4px;
+                font-size: 14px;
+            }
+        }
+        &__fifth_card {
+            width: 360px;
+            height: 185px;
+            &__header {
+                font-size: 20px;
+            }
+            &__adress {
+                font-size: 16px;
+            }
+            &__descr {
+                padding-top: 68px;
+                font-size: 14px;
+            }
+        }
+        &__six_card {
+            width: 360px;
+            height: 186px;
+            &__header {
+                font-size: 20px;
+            }
+            &__adress {
+                font-size: 16px;
+            }
+            &__descr {
+                font-size: 14px;
+                bottom: 3px;
+                line-height: 15px;
+            }
+        }
+    }
+    .right {
+        &__first_card {
+            width: 170px;
+            &__descr {
+                font-size: 14px;
+                line-height: 16px;
+            }
+        }
+        &__second_card {
+            width: 170px;
+            &__descr {
+                padding-top: 66px;
+                font-size: 17px;
+            }
+        }
+        &__third_card {
+            width: 170px;
+        }
+        &__fourth_card {
+            &__descr {
+                padding-top: 88px;
+                font-size: 15px;
+                line-height: 19px;
+            }
+            width: 170px;
+        }   
+        &__fifth_card {
+            width: 360px;
+            height: 185px;
+            &__descr {
+                bottom: 4px;
+                font-size: 16px;
+            }
+        }
+    }
+    .promo {
+        &__text__area {
+            position: relative;
+            margin-top: 40px;
+        }
+    }
+    .floors {
+        &__wrapper {
+            justify-content: center;
+        }
+        &__building {
+            &__kvarc {
+                margin-top: 35px;
+                img {
+                    width: 526px;
+                    height: 302px;
+                }
+                &__active {
+                    top: -34px;
+                    left: -140px;
+                    transform: scaleX(0.65) scaleY(.75);
+                }
+            }
+            &__forum {
+                margin-top: 35px;
+                img {
+                    width: 553px;
+                    height: 400px;
+                }
+                &__active {
+                    top: -66px;
+                    left: -136px;
+                    transform: scaleX(.65) scaleY(.65);
+                }
+            }
+            &__atoll {
+                margin-top: 35px;
+                img {
+                    width: 526px;
+                    height: 302px;
+                }
+                &__active {
+                    top: -91px;
+                    left: -148px;
+                    transform: scaleX(.63)scaleY(.57);
+                }
+            }
+        }
+        &__title {
+            margin-left: 64px;
+        }
+        &__choice__kvarc {
+            margin-top: 30px;
+        }
+        &__choice__forum {
+            margin-top: 30px;
+            &__warehouse {
+                margin-top: 30px;
+                li {
+                    margin-right: 0;
+                }
+            }
+        }
+        &__choice__atoll {
+            margin-top: 30px;
+            li {
+                margin-right: 100px;
+            }
+
+        }
+    }
+    .for_atoll {
+        margin-top: 35px;
+            img {
+                width: 526px;
+                height: 302px;
+            }
+    }
+    .choice {
+        &__floor__kvarc {
+            margin-right: 10px;
+        }
+        &__floor__forum {
+            margin-right: 10px;
+        }
+        &__floor__atoll {
+            margin-right: 10px;
+        }
+        &__kvarc__wrapper {
+            ul {
+                justify-content: center;
+            }
+            li {
+                margin-right: 5px;
+            }
+            &__storage {
+                display: block;
+                margin: 0 auto;
+                text-align: center;
+                li {
+                    margin-right: 0;
+                }
+            }
+        }
+        &__forum__wrapper {
+            ul {
+                justify-content: center;
+            }
+            li {
+                margin-right: 5px;
+            }
+            &__storage {
+                display: block;
+                margin: 0 auto;
+                text-align: center;
+                li {
+                    margin-right: 0;
+                }
+            }
+        }
+        &__atoll__wrapper {
+            ul {
+                justify-content: center;
+            }
+            li {
+                margin-right: 5px;
+            }
+        }
+    }
+    .travel {
+        &__map {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            img {
+                width: 90%;
+            }
+            &__active {
+                width: 742px;
+            }
+        }
+    }
+    .levels {
+        &__wrapper {
+            justify-content: center;
+        }
+        &__image {
+            margin-top: 0;
+            img {
+                width: 540px;
+                height: 280px;
+            }
+        }
+        &__text {
+            width: 24%;
+            padding-right: 20px;
+        }
+        &__select {
+            margin-left: 55px;
+        }
+        &__header {
+            margin-left: 55px;
+        }
+    }
+    .room {
+        width: 87%;
+        display: block;
+        margin: 0 auto;
+        &__plan {
+            display: block;
+            margin: 0 auto;
+            margin-top: 30px;
+            width: 80%;
+        }
+    }
+    
+}
